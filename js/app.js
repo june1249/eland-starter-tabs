@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'starter.directives'])
 
-run(function($ionicPlatform, $rootScope, $ionicHistory) {
+.run(function($ionicPlatform, $rootScope, $ionicHistory) {
 
   $ionicPlatform.registerBackButtonAction(function(e){
     if ($rootScope.backButtonPressedOnceToExit) {
